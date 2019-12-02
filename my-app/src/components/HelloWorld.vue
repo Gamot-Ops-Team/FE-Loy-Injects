@@ -60,7 +60,7 @@
     ></v-select>
     <v-select
       v-model="selectorg"
-      :items="Org"
+      :items="OrgID"
       :error-messages="selectErrors"
       label="Org ID"
       required
